@@ -19,7 +19,7 @@ Since this walk through is geared to explain how I work in particular, we will s
 
 Emacs is more than an editor, it is a lifestyle.  I also admit that the learning curve is steep.  I actually only know about 4% of Emacs. This is completely normal given that the learning curve for the editor looks like a squiggly curlicue.
 
-![](http://c4.staticflickr.com/8/7598/16914999852_995b77a811_z.jpg)
+![](https://c4.staticflickr.com/8/7598/16914999852_995b77a811_z.jpg)
 
 Nevertheless, once I started using Emacs for Clojure and experienced the interactive nature of the code and the REPL, (Read Eval Print Loop), I was hooked.  I use a customized version of [Emacs Starter Kit](https://github.com/technomancy/emacs-starter-kit). I also find the [Solarized Color-scheme](https://github.com/sellout/emacs-color-theme-solarized) a must for my eyes. For Clojure code, I use [Cider for Emacs](https://github.com/clojure-emacs/cider), which gives me the incredible interactive code experience that I was mentioning.  If you are looking to try out Emacs I would recommend getting the starter kit and grabbing a good tutorial like this [one](http://www.jesshamrick.com/2012/09/10/absolute-beginners-guide-to-emacs/).
 
@@ -756,7 +756,7 @@ Giving it a try:
 ;;                 in the nights of June."}}
 ```
 
-![](http://c4.staticflickr.com/8/7617/16905225975_07da52ac87_b.jpg)
+![](https://c4.staticflickr.com/8/7617/16905225975_07da52ac87_b.jpg)
 
 Hooray! We are almost there.  We next need a way to run this status update on a periodic basis, having it post automatically for us.
 
