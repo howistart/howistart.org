@@ -3,7 +3,7 @@ title: Nim
 author: Dennis Felsing
 subheading: Active Nim contributor and Master's candidate at KIT
 tags: ["nim"]
-bio: <a href='http://felsin9.de/nnis/'>Dennis</a> is an active contributor to the <a href='http://nim-lang.org'>Nim</a> language while working on his Master's thesis at KIT. There he worked on research developing a new method for <a href='http://felsin9.de/nnis/teaching-research/#automating-regression-verification'>Regression Verification</a> and teaching programming paradigms (Haskell, lambda calculus, type inference, Prolog, Scala, etc.). He also develops and runs <a href='http://ddnet.tw'>DDNet</a>, a unique cooperative 2D game.
+summary: <a href='http://felsin9.de/nnis/'>Dennis</a> is an active contributor to the <a href='http://nim-lang.org'>Nim</a> language while working on his Master's thesis at KIT. There he worked on research developing a new method for <a href='http://felsin9.de/nnis/teaching-research/#automating-regression-verification'>Regression Verification</a> and teaching programming paradigms (Haskell, lambda calculus, type inference, Prolog, Scala, etc.). He also develops and runs <a href='http://ddnet.tw'>DDNet</a>, a unique cooperative 2D game.
 date: 2015-02-09
 ---
 

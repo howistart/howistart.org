@@ -3,7 +3,7 @@ title: C++
 author: Jeremy Ong
 subheading: CTO and cofounder of PlexChat
 tags: ["cpp"]
-bio: Jeremy is a full stack engineer, currently working on a <a href='http://plexchat.com'>company</a> specializing in cross-platform real-time coordination and communication. He is a programming language and paradigm polyglot, with professional experience ranging from distributed systems and network protocols, to game engines and renderers for next-gen game consoles.
+summary: Jeremy is a full stack engineer, currently working on a <a href='http://plexchat.com'>company</a> specializing in cross-platform real-time coordination and communication. He is a programming language and paradigm polyglot, with professional experience ranging from distributed systems and network protocols, to game engines and renderers for next-gen game consoles.
 date: 2015-10-08
 ---
 

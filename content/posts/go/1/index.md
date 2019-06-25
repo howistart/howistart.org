@@ -3,7 +3,7 @@ title: Go
 author: Peter Bourgon
 subheading: Go evangelist and SoundCloud engineer
 tags: ["go"]
-bio: <a href='http://peter.bourgon.org'>Peter</a> is a software engineer focusing on large-scale distributed systems. He's been writing <a href='http://golang.org/'>Go</a> since its public release in 2009, and is a huge fan of its simplicity and pragmatism. Peter lives in Berlin and works at <a href='https://soundcloud.com/'>SoundCloud</a>, building the data systems and infrastructure that power the world's leading audio platform.
+summary: <a href='http://peter.bourgon.org'>Peter</a> is a software engineer focusing on large-scale distributed systems. He's been writing <a href='http://golang.org/'>Go</a> since its public release in 2009, and is a huge fan of its simplicity and pragmatism. Peter lives in Berlin and works at <a href='https://soundcloud.com/'>SoundCloud</a>, building the data systems and infrastructure that power the world's leading audio platform.
 date: 2014-09-01
 ---
 

@@ -3,7 +3,7 @@ title: Haskell
 author: Chris Allen
 subheading: Coder, Teacher, Author
 tags: ["haskell"]
-bio: <a href='http://bitemyapp.com'>Chris</a> is a long time FP and Lisp user who discovered a love of learning and types when he found <a href='http://www.haskell.org'>Haskell</a>. Aside from releasing multiple Haskell project, such as <a href='https://github.com/bitemyapp/bloodhound'>Bloodhound</a> and <a href='https://github.com/bitemyapp/blacktip'>Blacktip</a> he took to teaching Haskell to spread the love and creating the <a href='https://github.com/bitemyapp/learnhaskell'>Learn Haskell</a> guide which he is turning into a <a href='http://haskellbook.com/'>book</a>.
+summary: <a href='http://bitemyapp.com'>Chris</a> is a long time FP and Lisp user who discovered a love of learning and types when he found <a href='http://www.haskell.org'>Haskell</a>. Aside from releasing multiple Haskell project, such as <a href='https://github.com/bitemyapp/bloodhound'>Bloodhound</a> and <a href='https://github.com/bitemyapp/blacktip'>Blacktip</a> he took to teaching Haskell to spread the love and creating the <a href='https://github.com/bitemyapp/learnhaskell'>Learn Haskell</a> guide which he is turning into a <a href='http://haskellbook.com/'>book</a>.
 date: 2014-11-16
 ---
 

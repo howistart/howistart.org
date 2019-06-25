@@ -3,7 +3,7 @@ title: Ruby
 author: Steve Klabnik
 subheading: Rails Core Committer & Author of Rails 4 in Action
 tags: ["ruby"]
-bio: <a href='https://twitter.com/steveklabnik/'>Steve</a> is a long time <a href='http://rubyonrails.org/'>Rails</a> core comitter and author of <a href='http://www.designinghypermediaapis.com/'>Designing with Hypermedia API's</a>, <a href='http://www.rustforrubyists.com/'>Rust for Rubyists</a>, and <a href='http://www.manning.com/bigg2/'>Rails 4 in Action</a>. Currently Steve is providing his documentation expertise to <a href='http://mozilla.org'>Mozilla</a> to improve and expand the <a href='http://www.rust-lang.org/'>Rust</a> documentation.
+summary: <a href='https://twitter.com/steveklabnik/'>Steve</a> is a long time <a href='http://rubyonrails.org/'>Rails</a> core comitter and author of <a href='http://www.designinghypermediaapis.com/'>Designing with Hypermedia API's</a>, <a href='http://www.rustforrubyists.com/'>Rust for Rubyists</a>, and <a href='http://www.manning.com/bigg2/'>Rails 4 in Action</a>. Currently Steve is providing his documentation expertise to <a href='http://mozilla.org'>Mozilla</a> to improve and expand the <a href='http://www.rust-lang.org/'>Rust</a> documentation.
 date: 2014-07-10
 ---
 
