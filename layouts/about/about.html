@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+<main>
+  <div class="post">
+
+	<h1 class="post-title">{{ .Title }}</h1>
+	<div class="post-line"></div>
+
+	{{ .Content }}
+
+    <hr>
+
+    {{ i18n "generator" | safeHTML }}
+  </div>
+</main>
+
+{{ end }}

@@ -24,7 +24,8 @@ footer,
 
   &-title {
     @include transition(all .2s ease-out);
-    color: $default-color;
+    // color: $default-color;
+    color: black;
     display: inline-block;
     margin: 0;
     padding-right: .2rem;
@@ -42,7 +43,6 @@ footer,
     padding: 0;
     text-align: center;
     display: flex;
-    // flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
   }
@@ -75,18 +75,6 @@ footer,
     &-container {
       text-align: left;
     }
-
-    ul .left {
-         //bottom: 0;
-         // position: absolute;
-        // left: 0;
-    }
-
-    ul .right {
-      // bottom: 0;
-      // position: absolute;
-      // right: 0;
-    }
   }
 }
 
@@ -94,9 +82,11 @@ footer {
   font-family: $serif-secondary;
   padding: 2rem 0;
   text-align: center;
-
-  span {
-    color: $default-color;
+  display: flex;
+  justify-content: right;
+  align-items: center;
     font-size: .8rem;
-  }
+    img {
+        margin: 0;
+    }
 }
