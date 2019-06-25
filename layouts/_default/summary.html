@@ -1,0 +1,19 @@
+<div class="catalogue-item">
+  <div class="media author-box">
+
+    <div class="media-figure">
+      <a href="{{ .Permalink }}"><img class="img-responsive" src="/{{ .File.Dir }}/images/headshot.png" alt=""></a>
+    </div>
+
+    <div class="media-body">
+
+      <time datetime="{{ .PublishDate }}" class="catalogue-time">{{ i18n "publishdate" . }}</time>
+      <h1 class="catalogue-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+      <div class="catalogue-line"></div>
+
+      <p>
+        {{ if isset .Params "summary" }}{{ .Params.Summary | safeHTML }}{{ else }}{{ .Summary | safeHTML }}{{ end }}
+      </p>
+    </div>
+  </div>
+</div>

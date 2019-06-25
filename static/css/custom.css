@@ -1,22 +1,35 @@
-
-.img-responsive {
-  display: block;
-  max-width: 100%;
-  height: auto;
+h2 .nav-title {
+    color: black;
 }
 
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
+footer {
+    padding: 2rem 0;
+    text-align: center;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: .8rem;
+    img {
+        margin: 0;
+    }
+}
 
 /* Media Object */
 .media {
-  display: flex;
-  align-items: flex-start;
+    display: flex;
+    align-items: flex-start;
 }
 .media-figure {
-  margin-right: 1em;
+    margin-right: 1em;
 }
 .media-body {
-  flex: 1;
+    flex: 1;
 }
 
 /* Author Box Styles */
