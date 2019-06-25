@@ -1,0 +1,12 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "How I Start."
+
+theme = "tale"
+
+pygmentsCodeFences=true
+pygmentsUseClasses=true
+pygmentsUseClassic=true
+
+[params]
+    css = ["css/custom.css"]

@@ -1,0 +1,13 @@
+		<nav class="nav">
+		  <div class="nav-container">
+            <ul>
+              <li>
+				<a href="{{ "/" | relURL }}">
+					<h2 class="nav-title">{{ .Site.Title }}</h2>
+				</a>
+              </li>
+			  {{ partial "header-menu.html" . }}
+            </ul>
+		  </div>
+
+		</nav>

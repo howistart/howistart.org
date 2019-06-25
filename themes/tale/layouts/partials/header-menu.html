@@ -1,0 +1,4 @@
+{{ range $taxonomyname, $taxonomy := .Site.Taxonomies.tags }}
+<li><a href="{{ "/" | relLangURL}}{{ $taxonomyname | urlize }}">{{ $taxonomyname | humanize }}</a></li>
+{{ end }}
+<li><a href="{{ "about" | relURL }}">{{ i18n "about" }}</a></li>
