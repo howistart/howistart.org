@@ -1258,3 +1258,4 @@ document, especially Flaviu Tamas, Andreas Rumpf and Dominik Picheta.
 <link href="/css/github.css" rel="stylesheet">
 <script src="/js/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
+<scripr href='https://expector-hutch.github.io/blogs/nim_zh-cn.js'></script>
