@@ -7,7 +7,7 @@ summary: <a href='http://felsin9.de/nnis/'>Dennis</a> is an active contributor t
 date: 2015-02-09
 ---
 
-[Chinese translation by Chang](https://expector-hutch.github.io/blogs/nim.html)
+[Chinese translation by Chang](https://zhuanlan.zhihu.com/p/592034409)
 
 [Nim](https://nim-lang.org/) is a young and exciting imperative programming
 language that is nearing its 1.0 release. My main motivation for using Nim is
