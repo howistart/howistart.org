@@ -3,11 +3,13 @@ title: Nim
 author: Dennis Felsing
 subheading: Active Nim contributor and Master's candidate at KIT
 tags: ["nim"]
-summary: <a href='http://felsin9.de/nnis/'>Dennis</a> is an active contributor to the <a href='http://nim-lang.org'>Nim</a> language while working on his Master's thesis at KIT. There he worked on research developing a new method for <a href='http://felsin9.de/nnis/teaching-research/#automating-regression-verification'>Regression Verification</a> and teaching programming paradigms (Haskell, lambda calculus, type inference, Prolog, Scala, etc.). He also develops and runs <a href='http://ddnet.tw'>DDNet</a>, a unique cooperative 2D game.
+summary: <a href='https://dennis.felsing.org'>Dennis</a> is an active contributor to the <a href='https://nim-lang.org'>Nim</a> language while working on his Master's thesis at KIT. There he worked on research developing a new method for <a href='https://dennis.felsing.org/teaching-research/#automating-regression-verification'>Regression Verification</a> and teaching programming paradigms (Haskell, lambda calculus, type inference, Prolog, Scala, etc.). He also develops and runs <a href='https://ddnet.org'>DDNet</a>, a unique cooperative 2D game.
 date: 2015-02-09
 ---
 
-[Nim](http://nim-lang.org/) is a young and exciting imperative programming
+[Chinese translation by Chang](https://zhuanlan.zhihu.com/p/592034409)
+
+[Nim](https://nim-lang.org/) is a young and exciting imperative programming
 language that is nearing its 1.0 release. My main motivation for using Nim is
 its performance / productivity ratio and the joy of programming in Nim. In this
 guide I'm going to show you how I start a Nim project.
@@ -26,7 +28,7 @@ online](https://github.com/def-/nim-brainfuck).
 ## Installation
 
 Installing Nim is straightforward, you can follow the [official
-instructions](http://nim-lang.org/download.html). Binaries for Windows are
+instructions](https://nim-lang.org/download.html). Binaries for Windows are
 provided. On other operating systems you can run the `build.sh` script to
 compile the generated C code, which should take less than 1 minute on a modern
 system.
@@ -86,7 +88,7 @@ Command:
 ```
 
 If `nim` reports its version and usage, we're good to continue. Now the modules
-from [Nim's standard library](http://nim-lang.org/docs/lib.html) are just an import
+from [Nim's standard library](https://nim-lang.org/docs/lib.html) are just an import
 away. All other packages can be retrieved with
 [nimble](https://github.com/nim-lang/nimble), Nim's package manager. Let's
 follow the [one-liner installation
@@ -107,7 +109,7 @@ Downloading Official package list
 ```
 
 Now we can browse the available [nimble
-packages](http://nim-lang.org/docs/lib.html#nimble) or search for them on the
+packages](https://nim-lang.org/docs/lib.html#nimble) or search for them on the
 command line:
 
 ```
@@ -324,9 +326,9 @@ often during development to get a feeling for how everything works.
 
 ## Coding
 
-While programming Nim's [documentation](http://nim-lang.org/documentation.html)
+While programming Nim's [documentation](https://nim-lang.org/documentation.html)
 comes in handy. If you don't know where to find what yet, there's a
-[documentation index](http://nim-lang.org/docs/theindex.html), in which you can
+[documentation index](https://nim-lang.org/docs/theindex.html), in which you can
 search.
 
 Let's start developing our interpreter by changing the `brainfuck.nim` file:
@@ -335,7 +337,7 @@ Let's start developing our interpreter by changing the `brainfuck.nim` file:
 import os
 ```
 
-First we import the [os module](http://nim-lang.org/docs/os.html), so that we can
+First we import the [os module](https://nim-lang.org/docs/os.html), so that we can
 read command line arguments.
 
 ```nimrod
@@ -632,13 +634,13 @@ proc interpret*(code: string) =
 ```
 
 `nim doc brainfuck` builds the documentation, which you can [see
-online](http://hookrace.net/nim-brainfuck/brainfuck.html) in its full glory.
+online](https://hookrace.net/nim-brainfuck/brainfuck.html) in its full glory.
 
 ## Metaprogramming
 
 As I said before, our interpreter is still pretty slow for the mandelbrot
 program. Let's write a procedure that creates [Nim code
-AST](http://nim-lang.org/docs/macros.html) at compile time instead:
+AST](https://nim-lang.org/docs/macros.html) at compile time instead:
 
 ```nimrod
 import macros
@@ -898,7 +900,7 @@ is that we always read from stdin and write to stdout.
 
 Instead of accepting just a `code: string` as its parameter, we extend the
 `interpret` procedure to also receive an input and output stream. This uses the
-[streams module](http://nim-lang.org/docs/streams.html) that provides `FileStream`s
+[streams module](https://nim-lang.org/docs/streams.html) that provides `FileStream`s
 and `StringStream`s:
 
 ```nimrod
@@ -934,7 +936,7 @@ proc interpret*(code: string; input, output: Stream) =
 
 I've also added some module wide documentation, including example code for
 how our library can be used. Take a look at the [resulting
-documentation](http://hookrace.net/nim-brainfuck/brainfuck.html).
+documentation](https://hookrace.net/nim-brainfuck/brainfuck.html).
 
 Most of the code stays the same, except the handling of brainfuck operations
 `.` and `,`, which now use `output` instead of `stdout` and `input` instead of
@@ -1083,7 +1085,7 @@ when isMainModule:
   doAssert align("1232", 6, '#') == "##1232"
 ```
 
-For a bigger project the [unittest module](http://nim-lang.org/docs/unittest.html)
+For a bigger project the [unittest module](https://nim-lang.org/docs/unittest.html)
 comes in handy.
 
 We split up the tests into 3 files in the `tests/` directory:
@@ -1165,7 +1167,7 @@ Time to publish [everything on
 Github](https://github.com/def-/nim-brainfuck) and submit a pull request to
 have `brainfuck` included in the [nimble
 packages](https://github.com/nim-lang/packages). Once the package is accepted
-you can find it in the [official list](http://nim-lang.org/docs/lib.html#nimble) and
+you can find it in the [official list](https://nim-lang.org/docs/lib.html#nimble) and
 use nimble to search for it and install it:
 
 ```
@@ -1242,16 +1244,16 @@ This is the end of our tour through the Nim ecosystem, I hope you enjoyed it
 and found it as interesting as it was for me to write it.
 
 If you still want to learn more about Nim, I have recently written about [what
-is special about Nim](http://hookrace.net/blog/what-is-special-about-nim/) and
-[what makes Nim practical](http://hookrace.net/blog/what-makes-nim-practical/),
+is special about Nim](https://hookrace.net/blog/what-is-special-about-nim/) and
+[what makes Nim practical](https://hookrace.net/blog/what-makes-nim-practical/),
 and have an [extensive collection of small
 programs](https://github.com/def-/nim-unsorted).
 
 If you're interested in a more traditional start into Nim, the [official
-tutorial](http://nim-lang.org/docs/tut1.html) and [Nim by
+tutorial](https://nim-lang.org/docs/tut1.html) and [Nim by
 Example](https://nim-by-example.github.io/) can guide you.
 
-The [Nim community](http://nim-lang.org/community.html) is very welcoming and
+The [Nim community](https://nim-lang.org/community.html) is very welcoming and
 helpful. Thanks to everyone who had suggestions and found bugs in this
 document, especially Flaviu Tamas, Andreas Rumpf and Dominik Picheta.
 
