@@ -10,3 +10,11 @@
   for = "/css/*.css"
   [headers.values]
     Cache-Control = "public, s-max-age=604800"
+
+[build.environment]
+HUGO_VERSION = "0.127.0"
+TZ = "America/Denver"
+
+[build]
+publish = "public"
+command = "hugo --gc --minify"
